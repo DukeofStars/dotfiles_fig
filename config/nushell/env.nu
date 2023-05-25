@@ -60,8 +60,5 @@ let-env NU_PLUGIN_DIRS = [
 
 let-env EDITOR = "C:\\Program Files\\Microsoft VS Code\\Code.exe"
 
-source ~/scripts/clean.nu
-alias test  = nu test.nu
-
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
